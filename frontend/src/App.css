@@ -1,0 +1,29 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Exo:ital,wght@0,100..900;1,100..900&family=Jersey+10&family=Smooch+Sans:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer components{
+    .sidebar-items{
+        @apply flex items-center mt-2 mb-2 h-12 w-min
+    }
+    
+    .assets-box-elements{
+        @apply py-3 bg-blue-200 m-0.5 px-2
+    }
+
+    .buttons{
+        @apply bg-[#bac860d9] py-1.5 px-2 m-0.5 rounded-lg
+    }
+}
+
+@theme{
+    --color-pri:#213448;
+    --color-sec: #547792;
+    --color-ter: #94B4C1;
+    --color-quar: #EAE0CF;
+    --font-jersey: "Jersey 10", sans-serif; 
+    --font-exo: "Exo", sans-serif;
+
+}
